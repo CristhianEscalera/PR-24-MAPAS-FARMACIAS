@@ -330,7 +330,7 @@ function HomeScreen() {
               { role === "Propietario" ? (
                 <>
                  <TouchableOpacity style={styles.button} onPress={() => getMyFarmacies()}>
-                   <Text style={styles.buttonText}>Mis Farmcaias</Text>
+                   <Text style={styles.buttonText}>Mis Farmacias</Text>
                 </TouchableOpacity>
               </>
               ):(

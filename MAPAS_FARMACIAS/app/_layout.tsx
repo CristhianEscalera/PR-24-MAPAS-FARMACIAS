@@ -54,7 +54,9 @@ const StackLayout = () => {
       <Stack.Screen name="login" />
       <Stack.Screen name="(protected)" options={{headerShown: false}}/>
       <Stack.Screen name="(screens)/Users/createUser" options={{ title: 'Registro de Usuario',}}/>
-      
+      <Stack.Screen name="(screens)/Users/EditUser" options={{ title: 'Edición de Usuario',}}/>
+      <Stack.Screen name="(screens)/Pharmacy/createpharmacy" options={{ title: 'Registro de Farmacias',}}/>
+      <Stack.Screen name="(screens)/Pharmacy/editPharmacy" options={{ title: 'Actualización de Farmacias',}}/>
     </Stack>
   );
 };

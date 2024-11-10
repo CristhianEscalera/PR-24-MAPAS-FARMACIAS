@@ -274,7 +274,7 @@ const PharmacyEditPharmacy: React.FC = () => {
 
   return (
     <GestureHandlerRootView style={styles.container}>
-      <Text style={styles.title}>Registro de Farmacia</Text>
+      <Text style={styles.title}>Actualizacion de Farmacias</Text>
       <ScrollView>
 
         <Controller

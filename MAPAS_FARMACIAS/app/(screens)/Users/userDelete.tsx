@@ -20,18 +20,18 @@ const UserDelete: React.FC<DeleteConfirmationModalProps> = ({ visible, onDelete,
       <View style={styles.modalOverlay}>
         <View style={styles.modalContainer}>
           <Text style={styles.modalTitle}>¿Estás seguro?</Text>
-          <Text style={styles.modalMessage}>{status === 1 ? "¿Quieres desavilitar al Usuario?": "¿Quieres Habilitar al Usuario?"}</Text>
+          <Text style={styles.modalMessage}>{status === 1 ? "¿Quieres deshabilitar al Usuario?": "¿Quieres Habilitar al Usuario?"}</Text>
 
           <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={[
                 styles.deleteButton,
-                { backgroundColor: status === 1 ? 'red' : 'green' } // Cambia el color según el estado
+                { backgroundColor: status === 1 ? 'red' : 'green' } 
             ]}
             onPress={onDelete}
             >
             <Text style={styles.buttonText}>
-                {status === 1 ? 'Desavilitar' : 'Habilitar'}
+                {status === 1 ? 'Deshabilitar' : 'Habilitar'}
             </Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.cancelButton} onPress={onCancel}>

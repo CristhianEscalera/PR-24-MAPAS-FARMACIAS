@@ -130,7 +130,7 @@ const Usuarios: React.FC = () => {
     <GestureHandlerRootView style={{ flex: 1 }}>
     <View style={{ flex: 1 }}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Dueño de Farmacia</Text>
+        <Text style={styles.headerText}>Propietarios</Text>
         <TouchableOpacity style={styles.button} onPress={() => router.push('/(screens)/Users/createUser')}>
           <MaterialIcons name="person-add" size={28} color="white" />
         </TouchableOpacity>

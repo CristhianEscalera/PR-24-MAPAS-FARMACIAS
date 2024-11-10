@@ -83,11 +83,11 @@ const LoginScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Iniciar sesssión</Text>
+      <Text style={styles.title}>Iniciar sessión</Text>
 
       <TextInput
         style={[styles.input, loginMessage ? styles.inputError : null]}
-        placeholder="Nombre de usuario o correo electrónico"
+        placeholder="Nombre de usuario"
         value={username}
         onChangeText={setUsername}
       />

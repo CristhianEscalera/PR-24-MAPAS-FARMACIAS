@@ -33,7 +33,7 @@ export default function Layout() {
             name = "Usuarios"
             redirect = {authState?.role !== Role.ADMIN}
             options={{
-                headerTitle: 'Propiestarios de Farmacias',
+                headerTitle: 'Propietarios de Farmacias',
                 drawerLabel: 'Usuarios',
                 drawerIcon: ({size, color}) => (
                   <FontAwesome5 name="users" size={size} color={color} />
